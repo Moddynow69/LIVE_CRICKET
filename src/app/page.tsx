@@ -6,8 +6,8 @@ export default function Home() {
   return (
     <div className="w-screen h-screen flex justify-center flex-col">
       <div className="w-screen h-20  flex justify-center flex-row gap-10">
-        <div className="w-40 h-auto flex justify-center items-center text-4xl hover:text-5xl" onClick={()=>setLanguage("English")}>English</div>
-        <div className="w-40 h-auto flex justify-center items-center text-4xl hover:text-5xl" onClick={()=>setLanguage("Hondi")}>Hindi</div>
+        <div className="w-40 h-auto flex justify-center items-center text-4xl hover:text-[40px] hover:text-[#ffffff97] cursor-pointer" onClick={()=>setLanguage("English")}>English</div>
+        <div className="w-40 h-auto flex justify-center items-center text-4xl hover:text-[40px] hover:text-[#ffffff97] cursor-pointer" onClick={()=>setLanguage("Hondi")}>Hindi</div>
       </div>
       <iframe
         src={
